@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This CocoaPod provides the ability to use a UILabel with extra feautures you can set from Xcode.
                        DESC
 
   s.homepage         = 'https://github.com/imjog/JSLabel'
