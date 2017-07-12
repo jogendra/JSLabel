@@ -1,0 +1,6 @@
+framework module JSLabel {
+  umbrella header "JSLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

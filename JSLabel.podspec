@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JSLabel'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JSLabel.'
+  s.summary          = 'A simple designable subclass on UILabel with extra features.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,9 +24,9 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/imjog/JSLabel'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'imjog' => 'imjog24@gmail.com' }
+  s.author           = { 'Jogendra Singh' => 'imjog24@gmail.com' }
   s.source           = { :git => 'https://github.com/imjog/JSLabel.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.social_media_url = 'https://twitter.com/jogendra_iitbhu'
 
   s.ios.deployment_target = '8.0'
 
