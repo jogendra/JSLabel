@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JSLabel_Example' do
+  pod 'JSLabel', :path => '../'
+
+  target 'JSLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
