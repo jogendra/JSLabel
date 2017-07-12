@@ -22,7 +22,7 @@ pod "JSLabel"
 
 ## Author
 
-imjog, imjog24@gmail.com
+Jogendra Singh, jogendra.singh.jog@gmail.com
 
 ## License
 
