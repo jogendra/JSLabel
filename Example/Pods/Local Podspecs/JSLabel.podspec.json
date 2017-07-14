@@ -1,15 +1,15 @@
 {
   "name": "JSLabel",
   "version": "0.1.0",
-  "summary": "A short description of JSLabel.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A simple designable subclass on UILabel with extra features.",
+  "description": "This CocoaPod provides the ability to use a UILabel with extra feautures you can set from Xcode.",
   "homepage": "https://github.com/imjog/JSLabel",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "imjog": "imjog24@gmail.com"
+    "Jogendra Singh": "imjog24@gmail.com"
   },
   "source": {
     "git": "https://github.com/imjog/JSLabel.git",

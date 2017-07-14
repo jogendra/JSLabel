@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		37F2E15089B1D3DD4F800E71 /* Pods_JSLabel_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A490AE97763C99F92E3BAFF5 /* Pods_JSLabel_Example.framework */; };
+		4069DCBF1F1989D900787E89 /* setclass.png in Resources */ = {isa = PBXBuildFile; fileRef = 4069DCBC1F1989D900787E89 /* setclass.png */; };
+		4069DCC01F1989D900787E89 /* inspactable.png in Resources */ = {isa = PBXBuildFile; fileRef = 4069DCBD1F1989D900787E89 /* inspactable.png */; };
+		4069DCC11F1989D900787E89 /* screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4069DCBE1F1989D900787E89 /* screen.png */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4069DCBC1F1989D900787E89 /* setclass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setclass.png; sourceTree = "<group>"; };
+		4069DCBD1F1989D900787E89 /* inspactable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inspactable.png; sourceTree = "<group>"; };
+		4069DCBE1F1989D900787E89 /* screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen.png; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JSLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,14 +45,14 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		622B449CBA79183BA6FD6413 /* Pods-JSLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSLabel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSLabel_Example/Pods-JSLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6BE131AF49CEF3014A458A4F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6BE131AF49CEF3014A458A4F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6C092A5292AD3037ABEB3DEF /* Pods_JSLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A490AE97763C99F92E3BAFF5 /* Pods_JSLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9F92D747DDC5EBC286E424 /* Pods-JSLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSLabel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSLabel_Example/Pods-JSLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D2FDB04805E63C191B564DCB /* Pods-JSLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSLabel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSLabel_Tests/Pods-JSLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E7BD6382D9EFF6D62E8B2BD3 /* Pods-JSLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSLabel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSLabel_Tests/Pods-JSLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F8C0AEE416EA0B7DE29C00E1 /* JSLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JSLabel.podspec; path = ../JSLabel.podspec; sourceTree = "<group>"; };
-		FB6614B3228F6559163D05AA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F8C0AEE416EA0B7DE29C00E1 /* JSLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JSLabel.podspec; path = ../JSLabel.podspec; sourceTree = "<group>"; };
+		FB6614B3228F6559163D05AA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4069DCC21F1989E300787E89 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Screenshot;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +106,10 @@
 		607FACD21AFB9204008FA782 /* Example for JSLabel */ = {
 			isa = PBXGroup;
 			children = (
+				4069DCBC1F1989D900787E89 /* setclass.png */,
+				4069DCC21F1989E300787E89 /* Screenshot */,
+				4069DCBD1F1989D900787E89 /* inspactable.png */,
+				4069DCBE1F1989D900787E89 /* screen.png */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -249,8 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				4069DCC11F1989D900787E89 /* screen.png in Resources */,
+				4069DCBF1F1989D900787E89 /* setclass.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				4069DCC01F1989D900787E89 /* inspactable.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0CD30F73B06F38AEB0F2CD313449AA08 /* Pods-JSLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72DB85D3B55C87B3349E8916363B9004 /* Pods-JSLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		165A73B292535D2AA9918A07AE6D64CA /* JSLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE61EBD79465B458A0212A45336A311 /* JSLabel-dummy.m */; };
+		141A2337D5E1054A27802712B712F5BD /* JSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AA5CFAEF972F4E49F3B321DA2B047A /* JSLabel.swift */; };
 		4C185C63DFC5D70750412B31BA18703B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5404EE3F2D797CB9D3519FA0FC2E62FA /* Pods-JSLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FB5A7B366D62B53788DEB4C621C122 /* Pods-JSLabel_Example-dummy.m */; };
 		88B5893429C3E713BFBFFECE33D6AC23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -16,7 +16,7 @@
 		A061E8FA353088F888D4615823143B4C /* Pods-JSLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 280F5A1A574C908A5C889490EB31F27C /* Pods-JSLabel_Tests-dummy.m */; };
 		A327C94A673D201F6441563FB810226D /* JSLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 548EB7B5E58DD0B431FA23C4F0690C54 /* JSLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A75C4A67B3BD10E9F1CB8D7F9607E62B /* Pods-JSLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4409AA4C2ABE07ACBE1A6BD3EC29DFCE /* Pods-JSLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFF8E327583FE067C2E0DFE193D8EF6C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966042D3E24F8213E7E6259330321A3C /* ReplaceMe.swift */; };
+		F998713D65B73596A4959FA25A1ECBF6 /* JSLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE61EBD79465B458A0212A45336A311 /* JSLabel-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +50,9 @@
 		92936499E6310B06E20D0A8D5AAED1B8 /* Pods-JSLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		92A85A997429CA6E9B863130EFC10421 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		966042D3E24F8213E7E6259330321A3C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		9A78C90C9931F8061FBE08661F1D5431 /* Pods-JSLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A0CAFA64072DB7A1E20E1388A0C5EFFE /* Pods-JSLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5AA5CFAEF972F4E49F3B321DA2B047A /* JSLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSLabel.swift; sourceTree = "<group>"; };
 		B5831E62A06364C24CEA67B97950D7ED /* Pods-JSLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B589FD37E707F2B015AA05F50268A946 /* Pods-JSLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BC149BD1E5386A67B4E85A4C9BB6122E /* Pods_JSLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSLabel_Tests.framework; path = "Pods-JSLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +100,15 @@
 			);
 			name = JSLabel;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		29C46343AAFDA7D4AB118139E9EDE2E3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A5AA5CFAEF972F4E49F3B321DA2B047A /* JSLabel.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		44C71069466FDC8F8EC0C2F50C9FE7A5 /* Pods-JSLabel_Example */ = {
@@ -160,7 +169,7 @@
 		B95A584DC76E3724F686AB697AC47D47 /* JSLabel */ = {
 			isa = PBXGroup;
 			children = (
-				C06751F985C70B6B02B5B1A5CAF6E6B9 /* Classes */,
+				29C46343AAFDA7D4AB118139E9EDE2E3 /* Classes */,
 			);
 			name = JSLabel;
 			path = JSLabel;
@@ -182,15 +191,6 @@
 				BC149BD1E5386A67B4E85A4C9BB6122E /* Pods_JSLabel_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C06751F985C70B6B02B5B1A5CAF6E6B9 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				966042D3E24F8213E7E6259330321A3C /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -293,7 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6247CB5EB7415603349922ECBCD47D4 /* Build configuration list for PBXNativeTarget "JSLabel" */;
 			buildPhases = (
-				B471C41ED077ADBD72B256780ED19773 /* Sources */,
+				F7AEA8109564C0C9EC51C752F3087368 /* Sources */,
 				FD55E04DBBB5A86DA502765E963BB6A8 /* Frameworks */,
 				952FDE6665406B29408DEB33D1C24C15 /* Headers */,
 			);
@@ -343,20 +343,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B471C41ED077ADBD72B256780ED19773 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				165A73B292535D2AA9918A07AE6D64CA /* JSLabel-dummy.m in Sources */,
-				BFF8E327583FE067C2E0DFE193D8EF6C /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E4D2928479DB19E1C308F85A0B06F5CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A061E8FA353088F888D4615823143B4C /* Pods-JSLabel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AEA8109564C0C9EC51C752F3087368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F998713D65B73596A4959FA25A1ECBF6 /* JSLabel-dummy.m in Sources */,
+				141A2337D5E1054A27802712B712F5BD /* JSLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
