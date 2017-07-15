@@ -40,7 +40,7 @@ pod "JSLabel"
 
 Just drag the `JSLabel.swift` files into your project.
 
-### `IBDesignable`
+### IBDesignable
 
 `JSLabel` includes `IBInspectable` annotations to enable configuring the label inside Interface Builder. However, if you see these warnings when building...
 
