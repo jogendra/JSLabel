@@ -6,6 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/JSLabel.svg?style=flat)](http://cocoapods.org/pods/JSLabel)
 ![Language](https://img.shields.io/badge/language-Swift%203-orange.svg)
 [![Twitter](https://img.shields.io/badge/twitter-@imjog24-blue.svg?style=flat)](https://twitter.com/imjog24)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <img src="https://github.com/imjog/JSLabel/blob/master/Example/JSLabel/screen.png" width="300"> <img src="https://github.com/imjog/JSLabel/blob/master/Example/JSLabel/blinkscreen.png" width="300">
 
