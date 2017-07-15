@@ -7,8 +7,7 @@
 ![Language](https://img.shields.io/badge/language-Swift%203-orange.svg)
 [![Twitter](https://img.shields.io/badge/twitter-@imjog24-blue.svg?style=flat)](https://twitter.com/imjog24)
 
-<img src="https://github.com/imjog/JSLabel/blob/master/Example/JSLabel/screen.png" width="300">
-<img src="https://github.com/imjog/JSLabel/blob/master/Example/JSLabel/blinkScreen.png" width="300">
+<img src="https://github.com/imjog/JSLabel/blob/master/Example/JSLabel/screen.png" width="300"> <img src="https://github.com/imjog/JSLabel/blob/master/Example/JSLabel/blinkscreen.png" width="300">
 
 ## Demo
 
