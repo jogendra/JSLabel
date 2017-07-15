@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/JSLabel.svg?style=flat)](http://cocoapods.org/pods/JSLabel)
 [![Platform](https://img.shields.io/cocoapods/p/JSLabel.svg?style=flat)](http://cocoapods.org/pods/JSLabel)
 ![Language](https://img.shields.io/badge/language-Swift%203-orange.svg)
+[![Twitter](https://img.shields.io/badge/twitter-@imjog24-blue.svg?style=flat)](https://twitter.com/imjog24)
+
+<img src="https://github.com/imjog/JSLabel/blob/master/Example/JSLabel/screen.png" width="300">
+<img src="https://github.com/imjog/JSLabel/blob/master/Example/JSLabel/blinkScreen.png" width="300">
 
 ## Demo
 
@@ -21,6 +25,9 @@ open JSLabel.xcworkspace
 ```
 
 ## Requirements
+- iOS 8.3+
+- Xcode 7+
+- Swift 3
 
 ## Installation
 
@@ -47,6 +54,34 @@ IB Designables: Failed to render instance of JSLabel: Failed to load designables
 
 - Install `JSLabel` as a dynamic framework using CocoaPods with `use_frameworks!` in your `Podfile`, or with Carthage
 - Install `JSLabel` by dragging its source files to your project
+
+## Usage
+### Use Blinking feature
+
+```Swift
+import JSLabel
+
+let BlinkLabel = JSLabel()
+BlinkLabel.startBlinking()
+BlinkLabel.stopBlinking()
+
+```
+![](https://github.com/obuseme/BlinkingLabel/blob/master/blinkinglabel.gif)
+### Creating a view from the storyboard
+
+- If you already have a Label where you want to use then set it's `class` to `JSLabel` in identity inspector.
+
+- Or drag a **Label** from object library and then change it's `class` to `JSLabel` in identity inspector.
+
+- Set the `module` property to `JSLabel`.
+
+<img
+src='https://github.com/imjog/JSLabel/blob/master/Example/JSLabel/setclass.png' width='260' alt='Add JsLabel to storyboard'>
+
+- Customize the view properties in the attributes inspector.
+
+<img
+src='https://github.com/imjog/JSLabel/blob/master/Example/JSLabel/inspactable.png' width='360' alt='Attributes inspector'>
 
 ## Author
 
