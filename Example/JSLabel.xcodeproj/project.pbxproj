@@ -11,6 +11,8 @@
 		4069DCBF1F1989D900787E89 /* setclass.png in Resources */ = {isa = PBXBuildFile; fileRef = 4069DCBC1F1989D900787E89 /* setclass.png */; };
 		4069DCC01F1989D900787E89 /* inspactable.png in Resources */ = {isa = PBXBuildFile; fileRef = 4069DCBD1F1989D900787E89 /* inspactable.png */; };
 		4069DCC11F1989D900787E89 /* screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4069DCBE1F1989D900787E89 /* screen.png */; };
+		4069DCC41F19926900787E89 /* blinking.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4069DCC31F19926900787E89 /* blinking.gif */; };
+		4069DCC61F1992D200787E89 /* blinkScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4069DCC51F1992D200787E89 /* blinkScreen.png */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 		4069DCBC1F1989D900787E89 /* setclass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setclass.png; sourceTree = "<group>"; };
 		4069DCBD1F1989D900787E89 /* inspactable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inspactable.png; sourceTree = "<group>"; };
 		4069DCBE1F1989D900787E89 /* screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen.png; sourceTree = "<group>"; };
+		4069DCC31F19926900787E89 /* blinking.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = blinking.gif; sourceTree = "<group>"; };
+		4069DCC51F1992D200787E89 /* blinkScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blinkScreen.png; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JSLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,11 @@
 		4069DCC21F1989E300787E89 /* Screenshot */ = {
 			isa = PBXGroup;
 			children = (
+				4069DCBC1F1989D900787E89 /* setclass.png */,
+				4069DCBD1F1989D900787E89 /* inspactable.png */,
+				4069DCBE1F1989D900787E89 /* screen.png */,
+				4069DCC51F1992D200787E89 /* blinkScreen.png */,
+				4069DCC31F19926900787E89 /* blinking.gif */,
 			);
 			name = Screenshot;
 			sourceTree = "<group>";
@@ -106,10 +115,7 @@
 		607FACD21AFB9204008FA782 /* Example for JSLabel */ = {
 			isa = PBXGroup;
 			children = (
-				4069DCBC1F1989D900787E89 /* setclass.png */,
 				4069DCC21F1989E300787E89 /* Screenshot */,
-				4069DCBD1F1989D900787E89 /* inspactable.png */,
-				4069DCBE1F1989D900787E89 /* screen.png */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -267,7 +273,9 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				4069DCC11F1989D900787E89 /* screen.png in Resources */,
+				4069DCC61F1992D200787E89 /* blinkScreen.png in Resources */,
 				4069DCBF1F1989D900787E89 /* setclass.png in Resources */,
+				4069DCC41F19926900787E89 /* blinking.gif in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 				4069DCC01F1989D900787E89 /* inspactable.png in Resources */,
