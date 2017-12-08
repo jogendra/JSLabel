@@ -1,6 +1,4 @@
 # JSLabel
-
-[![CI Status](http://img.shields.io/travis/imjog/JSLabel.svg?style=flat)](https://travis-ci.org/imjog/JSLabel)
 [![Version](https://img.shields.io/cocoapods/v/JSLabel.svg?style=flat)](http://cocoapods.org/pods/JSLabel)
 [![License](https://img.shields.io/cocoapods/l/JSLabel.svg?style=flat)](http://cocoapods.org/pods/JSLabel)
 [![Platform](https://img.shields.io/cocoapods/p/JSLabel.svg?style=flat)](http://cocoapods.org/pods/JSLabel)
