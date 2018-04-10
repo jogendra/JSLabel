@@ -112,4 +112,4 @@ src='https://github.com/imjog/JSLabel/blob/master/Example/JSLabel/inspactable.pn
 
 ## License
 
-JSLabel is available under the MIT license. See the LICENSE file for more info.
+JSLabel is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
